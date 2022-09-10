@@ -1,0 +1,31 @@
+.productHighlightWrapper--collection {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    display: inline-flex;
+    margin: 0 auto;
+    max-width: 4.813rem;
+    z-index: 2;
+    padding: 8px;
+}
+
+.productHighlightText {
+    border-radius: 8px;
+    background: #00a470;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: auto;
+    overflow: hidden;
+    padding: 0 0.625rem;
+    font-family: MuseoSans,sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: .02rem;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}

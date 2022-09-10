@@ -1,0 +1,78 @@
+:root {
+    /* Colors */
+  
+    --primary: #153c58; /* primary-dark */
+    --primary-light: #738a9b;
+    --primary-medium: #446379;
+  
+    --secundary: #b7958a; /* secundary-dark */
+    --secundary-light: #d4bfb9;
+    --secundary-medium: #c5aaa1;
+    --secundary-rose: #9c716b;
+  
+    --low: #000;
+    --low-light: #c0c0c0;
+    --low-medium: #707070;
+    --low-dark: #292929;
+  
+    --high: #fff;
+    --high-light: #f5f5f5;
+    --high-medium: #e0e0e0;
+    --high-dark: #ccc;
+  
+    --success: #006400;
+    --success-faded: #94e7ad;
+  
+    --danger: #b23b3b;
+    --danger-faded: #ffdbdb;
+  
+    --warning: #ffc42c;
+    --warning-faded: #fff5cf;
+  
+    --info: #2134df;
+    --info-faded: #e3f3ff;
+  
+    /* Typography Sizing */
+  
+    --heading1-font-size: 2.812rem; /* 45px */
+    --heading1-font-height: 4.5rem; /* 72px */
+  
+    --heading2-font-size: 2.25rem; /* 36px */
+    --heading2-font-height: 3rem; /* 48px */
+  
+    --heading3-font-size: 1.5rem; /* 24px */
+    --heading3-font-height: 1.5rem; /* 24px */
+  
+    --heading4-font-size: 1rem; /* 16px */
+    --heading4-font-height: 1.5rem; /* 24px */
+  
+    --body-font-size: 1rem; /* 16px */
+    --body-font-height: 1.5rem; /* 24px */
+  
+    --small-font-size: 0.875rem; /* 14px */
+    --small-font-height: 1.25rem; /* 20px */
+  
+    --mini-font-size: 0.75rem; /* 12px */
+    --mini-font-height: 1rem; /* 16px */
+  
+    --extra-small-font-size: 0.625rem; /* 10px */
+    --extra-small-font-height: 0.875rem; /* 14px */
+  
+    /* Container Sizing */
+  
+    --desktop-lg-container: 120rem; /* 1920px */
+    --desktop-sm-container: 90rem; /* 1440 px */
+    --tablet-lg-container: 64rem; /* 1824 px */
+    --tablet-sm-container: 48rem; /* 768 px */
+    --mobile-lg-container: 22.5rem; /* 360 px */
+    --mobile-sm-container: 20rem; /* 320px */
+  
+    /* Default Sizings (Spacing, Radius, etc.) */
+  
+    --x-extra-small: 0.25rem; /* 4px */
+    --extra-small: 0.5rem; /* 8px */
+    --small: 1rem; /* 16px */
+    --medium: 1.5rem; /* 24px */
+    --large: 2rem; /* 32px */
+  }
+  

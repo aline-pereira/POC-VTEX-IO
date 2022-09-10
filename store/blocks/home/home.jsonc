@@ -1,0 +1,42 @@
+{
+  "store.home": {
+    "blocks": [
+      "list-context.image-list#banner-home",
+      "slider-layout#banner-cards",
+      "__fold__",
+      "image#discountBanner",
+      "rich-text",
+      "flex-layout.row#shelf",
+      "slider-layout#deals-slider",
+      "flex-layout.row#releases-botik",
+      "rich-text#buy-category-title",
+      "flex-layout.row#buy-category"
+    ]
+  },
+  "rich-text": {
+    "props": {
+      "text": "Novas Fragrâncias de Bubbaloo:",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "bubbaloo-title"
+    }
+  },
+  "image#discountBanner": {
+    "props": {
+      "src": "https://res.cloudinary.com/beleza-na-web/image/upload/f_auto,fl_progressive,q_50/dpr_2.0/v1/banner/2022_08_11_19_43_36_5/248453c8-981c-4245-937a-c52cf0ea4272-header-1436x294-22c12-descontoprogressivo-lp.jpg",
+      "maxHeight": 250,
+      "link": {
+        "url": "https://www.boticario.com.br/promocao/desconto-progressivo/"
+      },
+      "blockClass": "discount-banner"
+    }
+  },
+  "rich-text#buy-category-title": {
+    "props": {
+      "text": "Compre por categoria",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "category-title"
+    }
+  }
+}

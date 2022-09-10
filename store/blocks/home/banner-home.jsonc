@@ -1,0 +1,55 @@
+{
+  "list-context.image-list#banner-home": {
+    "children": ["slider-layout#banner-home"],
+    "props": {
+      "blockClass": "banner-home",
+      "height": 650,
+      "images": [
+        {
+          "image": "https://res.cloudinary.com/beleza-na-web/image/upload/f_auto,fl_progressive,q_auto:low,w_1220/v1/banner/2022_08_15_09_45_49_4/d82e9879-7a7b-4676-ac5e-71be75c2801e-billboard-2440x750-22c12-cbembubbaloo-desk.jpg",
+          "mobileImage": "https://res.cloudinary.com/beleza-na-web/image/upload/f_auto,fl_progressive,q_auto:low,w_400/dpr_2.0/v1/banner/2022_08_15_09_46_39_7/44518f5a-7eb9-4120-ab8c-5441a66b512a-billboard-1080x1133-22c12-cbembubbaloo-mob-app.jpg",
+          "alt": "",
+          "link": "",
+          "width": "100%"
+        },
+        {
+          "image": "https://res.cloudinary.com/beleza-na-web/image/upload/f_auto,fl_progressive,q_auto:low,w_1220/v1/banner/2022_08_05_14_19_00_3/d02a14ba-80dc-447a-9bdf-7e597f188322-billboard-2440x750-22c12-lilylumiere-desk.jpg",
+          "mobileImage": "https://res.cloudinary.com/beleza-na-web/image/upload/f_auto,fl_progressive,q_auto:low,w_400/dpr_2.0/v1/banner/2022_08_05_14_19_46_7/7d8107ca-5732-40b7-8ce9-8635e441e094-billboard-1080x1133-22c12-lilylumiere-mob.jpg",
+          "alt": "",
+          "link": "",
+          "width": "100%"
+        },
+        {
+          "image": "https://res.cloudinary.com/beleza-na-web/image/upload/f_auto,fl_progressive,q_auto:low,w_1220/v1/banner/2022_07_06_16_19_53_7/e1af3e0c-9392-497c-a1f2-3766df7949f2-2440x750px-22-jul-banner-billboard.jpg",
+          "mobileImage": "https://res.cloudinary.com/beleza-na-web/image/upload/f_auto,fl_progressive,q_auto:low,w_400/dpr_2.0/v1/banner/2022_07_06_16_20_09_5/88c1659e-901a-434f-8244-d5b38ab134b3-2440x2560px-22-jul-banner-billborad-mobile.jpg",
+          "alt": "",
+          "link": "",
+          "width": "100%"
+        },
+        {
+          "image": "https://res.cloudinary.com/beleza-na-web/image/upload/f_auto,fl_progressive,q_auto:low,w_1220/v1/banner/2022_08_17_19_12_10_5/93be02b2-1128-47b4-8316-b72723c05117-billboard-2240x750-22c11-promocaorelampago-app-desk.jpg",
+          "mobileImage": "https://res.cloudinary.com/beleza-na-web/image/upload/f_auto,fl_progressive,q_auto:low,w_400/dpr_2.0/v1/banner/2022_08_17_19_12_51_3/117f49e8-2fae-43f4-9fc0-241876b97b73-billboard-1080x1133-22c11-promocaorelampago-app-mob.jpg",
+          "alt": "",
+          "link": "",
+          "width": "100%"
+        }
+      ]
+    }
+  },
+  "slider-layout#banner-home": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": false
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "blockClass": "slider-banner-home"
+    }
+  }
+}

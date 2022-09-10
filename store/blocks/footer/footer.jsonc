@@ -1,0 +1,128 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#footer-1-desktop",
+      "flex-layout.row#footer-2-desktop"
+    ]
+  },
+  "flex-layout.row#footer-1-desktop": {
+    "children": [
+      "vtex.menu@2.x:menu#duvidas",
+      "vtex.menu@2.x:menu#marcas",
+      "vtex.menu@2.x:menu#institucional",
+      "social-networks",
+      "accepted-payment-methods"
+    ],
+    "props": {
+      "blockClass": "menu-row",
+      "paddingTop": 6,
+      "paddingBottom": 3
+    }
+  },
+
+  "social-networks": {
+    "props": {
+      "socialNetworks": [
+        {
+          "name": "Facebook",
+          "url": "https://www.facebook.com/vtexonline/"
+        },
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/vtextruecloud/"
+        },
+        {
+          "name": "Twitter",
+          "url": "https://twitter.com/vtexonline"
+        },
+        {
+          "name": "Youtube",
+          "url": "https://www.youtube.com/user/VTEXTV"
+        }
+      ],
+      "showInColor": true
+    }
+  },
+  "accepted-payment-methods": {
+    "props": {
+      "paymentMethods": ["MasterCard", "Visa", "Diners Club"],
+      "showInColor": true
+    }
+  },
+  "flex-layout.row#footer-2-desktop": {
+    "children": ["image#logo-boticario",
+    "rich-text#footer-mobile"],
+    "props": {
+      "blockClass": "credits"
+    }
+  },
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#1-footer-mobile",
+      "flex-layout.row#2-footer-mobile",
+      "flex-layout.row#3-footer-mobile"
+    ]
+  },
+  "flex-layout.row#1-footer-mobile": {
+    "props": {
+      "paddingTop": 4,
+      "paddingBottom": 4,
+      "blockClass": "social-networks-container"
+    },
+    "children": ["rich-text#social-networks-mobile","social-networks"]
+  },
+  "flex-layout.row#2-footer-mobile": {
+    "props": {
+      "paddingTop": 4,
+      "paddingBottom": 4
+    },
+    "children": ["vtex.menu@2.x:menu#footer"]
+  },
+  "flex-layout.row#3-footer-mobile": {
+    "children": ["flex-layout.col#footer-3-mobile"],
+    "props": {
+      "blockClass": "payment-methods",
+      "paddingTop": 4,
+      "paddingBottom": 4
+    }
+  },
+  "flex-layout.col#footer-3-mobile": {
+    "children": [
+      "accepted-payment-methods",
+      "image#logo-boticario",
+      "rich-text#footer-mobile"
+    ],
+    "props": {
+      "blockClass": "payment-methods",
+      "paddingTop": 4,
+      "paddingBottom": 4,
+      "rowGap": 4
+    }
+  },
+  "image#logo-boticario": {
+    "props": {
+      "src": "https://res.cloudinary.com/beleza-na-web/image/upload/f_auto,fl_progressive,q_auto:eco,w_0.5/dpr_2.0/v1/banner/2021_10_26_19_58_34_4/f9df194b-e352-4d76-879c-624a3ceb4d7c-group-5285-1.png",
+      "maxHeight": 57,
+      "blockClass": "logo-footer"
+    }
+  },
+  "rich-text#footer-mobile": {
+    "props": {
+      "text": "Os preços da loja online podem variar em relação as lojas físicas e venda direta.\n\nBOTICÁRIO PRODUTOS DE BELEZA LTDA\nAv. Rui Barbosa, 4110 - Bloco 1 a 22 - Bairro Parque da Fonte - São José dos Pinhais - Paraná. CEP: 83.050-010 | CNPJ: 11.137.051/0719-54",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "footer"
+    }
+  },
+  "rich-text#social-networks-mobile": {
+    "props": {
+      "text": "Siga nossas Redes Sociais",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "footer-social-network"
+    }
+  }
+}

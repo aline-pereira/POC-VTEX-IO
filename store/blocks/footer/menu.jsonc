@@ -1,0 +1,182 @@
+{
+  "vtex.menu@2.x:menu#duvidas": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-item-link-footer",
+      "items": [
+        {
+          "id": "menu-item-category-clothing",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/clothing/d",
+            "noFollow": true,
+            "tagTitle": "Perguntas Frequentes",
+            "text": "Perguntas Frequentes"
+          }
+        },
+        {
+          "id": "menu-item-category-clothing",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/clothing/d",
+            "noFollow": true,
+            "tagTitle": "Formas de Pagamento",
+            "text": "Formas de Pagamento"
+          }
+        },
+        {
+          "id": "menu-item-category-clothing",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/clothing/d",
+            "noFollow": true,
+            "tagTitle": "Frete e Entrega",
+            "text": "Frete e Entrega"
+          }
+        }
+      ]
+    },
+    "children": ["rich-text#menu-duvidas"]
+  },
+  "vtex.menu@2.x:menu#marcas": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-item-link-footer",
+      "items": [
+        {
+          "id": "menu-item-category-clothing",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/clothing/d",
+            "noFollow": true,
+            "tagTitle": "Perguntas Frequentes",
+            "text": "Perguntas Frequentes"
+          }
+        },
+        {
+          "id": "menu-item-category-clothing",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/clothing/d",
+            "noFollow": true,
+            "tagTitle": "Formas de Pagamento",
+            "text": "Formas de Pagamento"
+          }
+        },
+        {
+          "id": "menu-item-category-clothing",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/clothing/d",
+            "noFollow": true,
+            "tagTitle": "Frete e Entrega",
+            "text": "Frete e Entrega"
+          }
+        }
+      ]
+    },
+    "children": ["rich-text#menu-marcas"]
+  },
+  "vtex.menu@2.x:menu#institucional": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-item-link-footer",
+      "items": [
+        {
+          "id": "menu-item-category-clothing",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/clothing/d",
+            "noFollow": true,
+            "tagTitle": "Perguntas Frequentes",
+            "text": "Perguntas Frequentes"
+          }
+        },
+        {
+          "id": "menu-item-category-clothing",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/clothing/d",
+            "noFollow": true,
+            "tagTitle": "Formas de Pagamento",
+            "text": "Formas de Pagamento"
+          }
+        },
+        {
+          "id": "menu-item-category-clothing",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/clothing/d",
+            "noFollow": true,
+            "tagTitle": "Frete e Entrega",
+            "text": "Frete e Entrega"
+          }
+        }
+      ]
+    },
+    "children": ["rich-text#menu-institucional"]
+  },
+
+  "vtex.menu@2.x:menu#footer": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#duvidas",
+      "vtex.menu@2.x:menu#marcas",
+      "vtex.menu@2.x:menu#institucional"
+    ]
+  },
+
+  "rich-text#menu-duvidas": {
+    "props": {
+      "text": "Dúvidas",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "menu-duvidas-title"
+    }
+  },
+  "rich-text#menu-marcas": {
+    "props": {
+      "text": "Marcas",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "menu-duvidas-title"
+    }
+  },
+  "rich-text#menu-institucional": {
+    "props": {
+      "text": "Institucional",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "menu-duvidas-title"
+    }
+  }
+}

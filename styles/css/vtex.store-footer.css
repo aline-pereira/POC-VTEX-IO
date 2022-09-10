@@ -1,0 +1,13 @@
+.footerLayout {
+    background: #f5f5f5;
+}
+
+.socialNetworksContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.acceptedPaymentMethodContainer {
+    justify-content: center;
+}

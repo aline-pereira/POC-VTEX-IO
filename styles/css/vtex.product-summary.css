@@ -1,0 +1,51 @@
+@media screen and (min-width: 64rem) {
+.image--imageHome {
+    width: 12rem !important;
+    height: 12rem !important;
+  }
+}
+
+.imageWrapper .imageStackContainer .image--imageHome {
+    padding-top: 3.125rem;
+    margin: 0 auto;
+  }
+
+.nameContainer {
+    display: inline-flex;
+    width: 100%;
+    justify-content: left;
+    margin-top: 1rem;
+    margin-left: 10px;
+}
+
+.priceContainer {
+    align-items: flex-start;
+    margin-left: 10px;
+    height: 80px;
+}
+
+.productPriceClass {
+    align-items: flex-start;
+}
+
+.brandName {
+    display: block;
+    font-size: .6875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.currencyContainer {
+    color: #000;
+    font-size: .9375rem;
+    font-weight: 700;
+}
+
+/* .containerNormal {
+    border: 1px solid #ebebeb;
+    margin-bottom: 2rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    min-height: 32rem;
+    min-width: 16rem;
+} */

@@ -1,0 +1,37 @@
+@media screen and (min-width: 64rem) {
+  .searchResultContainer {
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1220px;
+  }
+}
+.galleryTitle--layout {
+  color: #333;
+  display: inline;
+  font-family: "Domaine", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.totalProducts--layout {
+  color: #979899;
+}
+
+.totalProductsMessage,
+.filterPopupTitle,
+.orderByText {
+  color: #4a4a4a;
+  font-size: 0.75rem;
+  text-transform: capitalize;
+}
+
+.galleryTitle--layout {
+  color: #00a470;
+}
+
+.filterTitleSpan {
+  font-family: effra, Helvetica, Arial, sans-serif;
+  font-size: 1.125rem;
+  color: #00a470;
+}

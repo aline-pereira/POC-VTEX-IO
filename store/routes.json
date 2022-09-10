@@ -1,0 +1,8 @@
+{
+    "store.custom#poc-aline": {
+      "path": "/poc-aline"
+    },
+    "store.custom#landing": {
+        "path": "/landing"
+      }
+  }

@@ -1,0 +1,110 @@
+{
+  "flex-layout.row#releases-botik": {
+    "children": ["flex-layout.col#releases-content"],
+    "props": {
+      "marginBottom": 10,
+      "marginTop": 10,
+      "preserveLayoutOnMobile": true,
+      "blockClass": "releases-botik"
+    }
+  },
+  "flex-layout.col#releases-content": {
+    "children": [
+      "rich-text#release-title",
+      "image#teste",
+      "flex-layout.row#shelf",
+      "slider-layout#releases-cards"
+    ]
+  },
+  "rich-text#release-title": {
+    "props": {
+      "text": "Lançamentos de Botik",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "releases-botik-title"
+    }
+  },
+  "image#teste": {
+    "props": {
+      "src": "https://res.cloudinary.com/beleza-na-web/image/upload/f_auto,fl_progressive,q_auto:low,w_1220/v1/banner/2022_08_11_18_35_48_8/f1b8cfea-9a5c-406a-92cd-7e1bfaae3dc4-vitrine-2240x750-22c12-botikmandelico-desk.jpg",
+      "heigth": 570,
+      "width": "100%"
+    }
+  },
+
+  "slider-layout#releases-cards": {
+    "children": [
+      "image#releases1",
+      "image#releases2",
+      "image#releases3",
+      "image#releases4",
+      "image#releases5"
+    ],
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": false,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "blockClass": "releases-cards"
+    }
+  },
+  "image#releases1": {
+    "props": {
+      "src": "https://res.cloudinary.com/beleza-na-web/image/upload/f_auto,fl_progressive,q_50/v1/banner/2022_08_11_18_38_33_0/0792ffb7-a1c4-4df3-b8ba-0a726d4100e2-468x710-2022-c12-cards-botikmandelico-1.jpg",
+      "maxHeight": 370,
+      "link": {
+        "url": "https://www.boticario.com.br/presentes/"
+      },
+      "alt": "Lançamentos",
+      "title": "releases - Image 1"
+    }
+  },
+  "image#releases2": {
+    "props": {
+      "src": "https://res.cloudinary.com/beleza-na-web/image/upload/f_auto,fl_progressive,q_50/v1/banner/2022_08_11_18_39_39_1/d10c1013-dd43-4c0a-b929-79c8bc754f6d-468x710-2022-c12-cards-botikmandelico-2.jpg",
+      "maxHeight": 370,
+      "link": {
+        "url": "https://www.boticario.com.br/lancamentos/"
+      },
+      "alt": "Presentes",
+      "title": "releases - Image 2"
+    }
+  },
+  "image#releases3": {
+    "props": {
+      "src": "https://res.cloudinary.com/beleza-na-web/image/upload/f_auto,fl_progressive,q_50/v1/banner/2022_08_11_18_42_54_0/0dadb3be-6ca0-4021-9e94-4bfd8d6eb018-468x710-2022-c12-cards-botikmandelico-3.jpg",
+      "maxHeight": 370,
+      "link": {
+        "url": "https://www.boticario.com.br/cupom-de-desconto/primeira-compra/"
+      },
+      "alt": "Primiera Compra",
+      "title": "releases - Image 3"
+    }
+  },
+  "image#releases4": {
+    "props": {
+      "src": "https://res.cloudinary.com/beleza-na-web/image/upload/f_auto,fl_progressive,q_50/v1/banner/2022_08_11_18_43_29_8/2cd39331-79a2-4431-b47b-1ec4b3bf636b-468x710-2022-c12-cards-botikmandelico-4.jpg",
+      "maxHeight": 370,
+      "link": {
+        "url": "https://www.boticario.com.br/dicas-de-beleza/"
+      },
+      "alt": "Blog",
+      "title": "releases - Image 4"
+    }
+  },
+  "image#releases5": {
+    "props": {
+      "src": "https://res.cloudinary.com/beleza-na-web/image/upload/f_auto,fl_progressive,q_50/v1/banner/2022_08_11_18_43_55_9/2179196a-5bba-4986-aef9-7cda87f6f9cf-468x710-2022-c12-cards-botikmandelico-5.jpg",
+      "maxHeight": 370,
+      "link": {
+        "url": "https://www.boticario.com.br/dicas-de-beleza/"
+      },
+      "alt": "Blog",
+      "title": "releases - Image 5"
+    }
+  }
+}

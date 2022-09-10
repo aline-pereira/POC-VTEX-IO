@@ -1,0 +1,125 @@
+{
+  "slider-layout#banner-cards": {
+    "children": [
+      "image#1",
+      "image#2",
+      "image#3",
+      "image#4",
+      "image#5",
+      "image#6",
+      "image#7",
+      "image#8",
+      "image#9"
+    ],
+    "props": {
+      "itemsPerPage": {
+        "desktop": 9,
+        "tablet": 5,
+        "phone": 3
+      },
+      "infinite": false,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "blockClass": "banner-cards"
+    }
+  },
+  "image#1": {
+    "props": {
+      "src": "https://res.cloudinary.com/beleza-na-web/image/upload/f_auto,fl_progressive,q_50/v1/banner/2022_04_12_14_43_07_2/0f0c5947-6ab7-4d17-a718-d34e99d214f1-200x200-2022-c06-menu-icone-lancamentos.png",
+      "maxHeight": 125,
+      "link": {
+        "url": "https://www.boticario.com.br/presentes/"
+      },
+      "alt": "Lançamentos",
+      "title": "Deals - Image 1"
+    }
+  },
+  "image#2": {
+    "props": {
+      "src": "https://res.cloudinary.com/beleza-na-web/image/upload/f_auto,fl_progressive,q_50/v1/banner/2022_04_07_16_36_25_0/a083148d-0ff3-4b2b-8efa-3e2ecf46e684-200x200-2022-c02-menu-icone-presentes.png",
+      "maxHeight": 125,
+      "link": {
+        "url": "https://www.boticario.com.br/lancamentos/"
+      },
+      "alt": "Presentes",
+      "title": "Deals - Image 2"
+    }
+  },
+  "image#3": {
+    "props": {
+      "src": "https://res.cloudinary.com/beleza-na-web/image/upload/f_auto,fl_progressive,q_50/v1/banner/2022_01_24_10_48_10_6/7c29ffa0-827f-4cbf-a496-caacab0444f2-200x200-2022-c02-menu-icone-primeira-compra.jpg",
+      "maxHeight": 125,
+      "link": {
+        "url": "https://www.boticario.com.br/cupom-de-desconto/primeira-compra/"
+      },
+      "alt": "Primiera Compra",
+      "title": "Deals - Image 3"
+    }
+  },
+  "image#4": {
+    "props": {
+      "src": "https://res.cloudinary.com/beleza-na-web/image/upload/f_auto,fl_progressive,q_50/v1/banner/2022_01_24_10_44_11_2/dc306772-b940-46cc-b12f-0ba7fed9e68d-200x200-2022-c02-menu-icone-blog.jpg",
+      "maxHeight": 125,
+      "link": {
+        "url": "https://www.boticario.com.br/dicas-de-beleza/"
+      },
+      "alt": "Blog",
+      "title": "Deals - Image 4"
+    }
+  },
+  "image#5": {
+    "props": {
+      "src": "https://res.cloudinary.com/beleza-na-web/image/upload/f_auto,fl_progressive,q_50/v1/banner/2022_04_11_14_21_37_7/b33c0366-9090-4312-9c9c-95c376bce018-200x200-2022-c06-menu-icone-servicos-loja.png",
+      "maxHeight": 125,
+      "link": {
+        "url": "https://www.boticario.com.br/servicos-em-loja/"
+      },
+      "alt": "Serviços em loja",
+      "title": "Deals - Image 5"
+    }
+  },
+  "image#6": {
+    "props": {
+      "src": "https://res.cloudinary.com/beleza-na-web/image/upload/f_auto,fl_progressive,q_50/v1/banner/2022_01_24_10_48_45_7/8ba0bd00-7602-4bb3-8438-6b488cde9692-200x200-2022-c02-menu-icone-exlusivo-app.jpg",
+      "maxHeight": 125,
+      "link": {
+        "url": "https://www.boticario.com.br/aplicativo-boticario/"
+      },
+      "alt": "Exclusivos no app",
+      "title": "Deals - Image 6"
+    }
+  },
+  "image#7": {
+    "props": {
+      "src": "https://res.cloudinary.com/beleza-na-web/image/upload/f_auto,fl_progressive,q_50/v1/banner/2022_01_24_10_48_25_0/01dc83b0-eb83-4f41-9eb0-2033e2d19a65-200x200-2022-c02-menu-icone-clube-viva.jpg",
+      "maxHeight": 125,
+      "link": {
+        "url": "https://www.boticario.com.br/clube"
+      },
+      "alt": "Clube viva",
+      "title": "Deals - Image 7"
+    }
+  },
+  "image#8": {
+    "props": {
+      "src": "https://res.cloudinary.com/beleza-na-web/image/upload/f_auto,fl_progressive,q_50/v1/banner/2022_01_24_10_46_33_1/2511e259-9c96-4116-bd46-3d7b10c61bee-200x200-2022-c02-menu-icone-mais-vendidos.jpg",
+      "maxHeight": 125,
+      "link": {
+        "url": "https://www.boticario.com.br/mais-vendidos/"
+      },
+      "alt": "Mais vendidos",
+      "title": "Deals - Image 8"
+    }
+  },
+  "image#9": {
+    "props": {
+      "src": "https://res.cloudinary.com/beleza-na-web/image/upload/f_auto,fl_progressive,q_50/v1/banner/2022_01_24_10_47_22_1/dc8b0deb-7f91-4b88-9428-09fd6f418f39-200x200-2022-c02-menu-icone-promocoes.jpg",
+      "maxHeight": 125,
+      "link": {
+        "url": "https://www.boticario.com.br/promocao"
+      },
+      "alt": "Promoções",
+      "title": "Deals - Image 9"
+    }
+  }
+}

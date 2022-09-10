@@ -1,0 +1,27 @@
+.label {
+    color: #fff;
+    display: inline-block;
+    font-family: 'Domaine', sans-serif;
+    font-size: .875rem;
+    font-weight: 700;
+    line-height: 1.4;
+    padding: 0 10px;
+    position: relative;
+    vertical-align: bottom;
+    text-transform: capitalize;
+}
+
+:global(.vtex-button) {
+    background: #00a470;
+    color: #fff;
+    border: unset;
+}
+
+:global(.vtex-button):hover,
+:global(.bg-action-primary) {
+    background: #01b27a;
+}
+
+:global(.pl9-l) {
+    padding-left: unset !important;
+}

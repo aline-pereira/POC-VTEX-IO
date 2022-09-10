@@ -1,0 +1,196 @@
+{
+    "vtex.menu@2.x:menu#category-menu": {
+      "props": {
+        "experimentalOptimizeRendering": true,
+        "blockClass":"menu-links",
+        "items": [
+          {
+            "id": "menu-item-presents",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "/",
+              "noFollow": false,
+              "tagTitle": "Presentes",
+              "text": "Presentes"
+            }
+          },
+          {
+            "id": "menu-item-perfume",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "/",
+              "noFollow": false,
+              "tagTitle": "Perfumaria",
+              "text": "Perfumaria"
+            }
+          },
+          {
+            "id": "menu-item-makeup",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "/",
+              "noFollow": false,
+              "tagTitle": "Maquiagem",
+              "text": "Maquiagem"
+            }
+          },
+          {
+            "id": "menu-item-body",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "/",
+              "noFollow": false,
+              "tagTitle": "Corpo e Banho",
+              "text": "Corpo e Banho"
+            }
+          },
+          {
+            "id": "menu-item-hair",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "/",
+              "noFollow": false,
+              "tagTitle": "Cabelo",
+              "text": "Cabelo"
+            }
+          },
+          {
+            "id": "menu-item-skin",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "/",
+              "noFollow": false,
+              "tagTitle": "Pele",
+              "text": "Pele"
+            }
+          },
+          {
+            "id": "menu-item-promotion",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "/",
+              "noFollow": false,
+              "tagTitle": "Promoções",
+              "text": "Promoções"
+            }
+          },
+          {
+            "id": "menu-item-custom-sale",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": true,
+              "tagTitle": "Marcas",
+              "text": "Marcas"
+            },
+            "blocks": [
+              "vtex.menu@2.x:submenu#brands"
+            ]
+          }
+        ]
+      }
+    },
+    "vtex.menu@2.x:submenu#brands": {
+      "props": {
+        "width": "100%"
+      },
+      "children": [
+        "flex-layout.row#menu-brands"
+      ]
+    },
+    "flex-layout.row#menu-brands": {
+      "children": [
+        "flex-layout.col#menu-brands-1",
+        "flex-layout.col#menu-brands-2"
+      ]
+    },
+    "flex-layout.col#menu-brands-1": {
+      "children": [
+        "vtex.menu@2.x:menu#brands"
+      ]
+    },
+    "flex-layout.col#menu-brands-2": {
+      "children": [
+        "image#discountBanner"
+      ]
+    },
+    "vtex.menu@2.x:menu#brands": {
+      "props": {
+        "orientation": "vertical"
+      },
+      "children": [
+        "menu-item#about-us",
+        "menu-item#faq"
+      ]
+    },
+    "menu-item#about-us": {
+      "props": {
+        "id": "menu-item-about-us",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/about-us",
+          "noFollow": true,
+          "tagTitle": "About us",
+          "text": "About us"
+        }
+      }
+    },
+    "menu-item#faq": {
+      "props": {
+        "id": "menu-item-faq",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/faq",
+          "noFollow": true,
+          "tagTitle": "FAQ",
+          "text": "FAQ"
+        }
+      }
+    },
+    "menu-item#contact-us": {
+      "props": {
+        "id": "menu-item-contact-us",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/contact-us",
+          "noFollow": true,
+          "tagTitle": "Contact Us",
+          "text": "Contact Us"
+        }
+      }
+    }
+  }
+  

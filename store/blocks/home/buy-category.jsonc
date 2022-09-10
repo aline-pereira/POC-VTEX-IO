@@ -1,0 +1,53 @@
+{
+  "flex-layout.row#buy-category": {
+    "children": ["flex-layout.col#buy-category"],
+    "props": {
+      "blockClass": "buy-category"
+    }
+  },
+  "flex-layout.col#buy-category": {
+    "children": ["info-card#buy-category-image1", "info-card#buy-category-image2", "info-card#buy-category-image3"]
+  },
+  "info-card#buy-category-image1": {
+    "props": {
+      "id": "info-card#buy-category-image1",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://res.cloudinary.com/beleza-na-web/image/upload/f_auto,fl_progressive,q_50/v1/banner/2022_06_14_13_18_02_0/c5d6b554-539b-4491-a3a4-e695ad17770d-2440x750-2022-c09-perfumaria-vitrinedestaque-desk.jpg",
+      "mobileImageUrl": "",
+      "subhead": "Encontre as fragrâncias perfeitas para surpreender!",
+      "callToActionMode": "none",
+      "callToActionUrl": "https://www.boticario.com.br/perfumaria/",
+      "textAlignment": "left",
+      "blockClass": "buy-category-banner"
+    }
+  },
+  "info-card#buy-category-image2": {
+    "props": {
+      "id": "info-card#buy-category-image2",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://res.cloudinary.com/beleza-na-web/image/upload/f_auto,fl_progressive,q_50/v1/banner/2022_06_14_13_10_03_3/63bd6024-c79d-4106-a368-a1bb5f5e5915-2440x750-2022-c09-corpo-banho-vitrinedestaque-desk.jpg",
+      "mobileImageUrl": "",
+      "subhead": "O seu corpo merece uma rotina de cuidados!",
+      "callToActionMode": "none",
+      "callToActionUrl": "https://www.boticario.com.br/corpo-e-banho/",
+      "textAlignment": "left",
+      "blockClass": "buy-category-banner"
+    }
+  },
+  "info-card#buy-category-image3": {
+    "props": {
+      "id": "info-card#buy-category-image3",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://res.cloudinary.com/beleza-na-web/image/upload/f_auto,fl_progressive,q_50/v1/banner/2022_06_14_13_10_54_2/ccefbb0b-24b8-406f-a907-947db3b51d80-2440x750-2022-c09-cuidados-faciais-vitrinedestaque-desk.jpg",
+      "mobileImageUrl": "",
+      "subhead": "Crie uma rotina completa de skincare!",
+      "callToActionMode": "none",
+      "callToActionUrl": "https://www.boticario.com.br/cuidados-para-pele/",
+      "textAlignment": "left",
+      "blockClass": "buy-category-banner"
+    }
+  }
+}

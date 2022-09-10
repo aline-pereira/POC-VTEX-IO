@@ -1,0 +1,37 @@
+{
+    "store.custom#poc-aline": {
+      "blocks": ["flex-layout.row#poc-aline"]
+    },
+    "flex-layout.row#poc-aline": {
+        "children": [
+          "image#poc-aline",
+          "flex-layout.col#text-poc-aline"
+        ]
+      },
+    "flex-layout.col#text-poc-aline": {
+        "children": [
+          "rich-text#about-title",
+          "rich-text#about-content"
+        ],
+        "props": {
+          "preventVerticalStretch": true
+        }
+      },
+      "rich-text#about-title": {
+        "props": {
+            "text": "# About Minimum Theme"
+        }
+      },
+      "rich-text#about-content": {
+        "props": {
+          "text":
+            " This is the VTEX Minimum Theme, you can use it to test blocks usage and build your first store from scratch."
+        }
+      },
+      "image#poc-aline": {
+        "props": {
+          "src": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-about-us.png",
+          "maxHeight": "600px"
+        }
+      }
+  }

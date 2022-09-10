@@ -1,0 +1,108 @@
+{
+  "header": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header.full": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "image#top-bar",
+      "flex-layout.row#header-desktop",
+      "flex-layout.row#menu-desktop"
+    ]
+  },
+  "image#top-bar": {
+    "props": {
+      "src": "https://res.cloudinary.com/beleza-na-web/image/upload/f_auto,fl_progressive,q_auto:low,w_1220/v1/banner/2022_08_12_15_55_41_7/94f1090a-138c-440e-9fd2-a077abf2ceb2-desk-2440x90-22c12-topodociclo-v6.jpg",
+      "maxHeight": 50,
+      "link": {
+        "url": "https://www.boticario.com.br/lancamentos/"
+      },
+      "blockClass": "header-top-bar"
+    }
+  },
+  "flex-layout.row#header-desktop": {
+    "props": {
+      "blockClass": "main-header",
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "verticalAlign": "center"
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "search-bar",
+      "vtex.menu@2.x:menu#links-header",
+      "login",
+      "minicart.v2"
+    ]
+  },
+  "search-bar": {
+    "props": {
+      "placeholder": "O que você procura hoje?"
+    }
+  },
+  "login": {
+    "props": {
+      "iconLabel": "Minha conta"
+    }
+  },
+  "flex-layout.row#menu-desktop": {
+    "props": {
+      "blockClass": "links-header",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": ["vtex.menu@2.x:menu#category-menu"]
+  },
+  "header-layout.mobile": {
+    "children": ["image#top-bar", "flex-layout.row#1-mobile", "search-bar"]
+  },
+  "flex-layout.row#1-mobile": {
+    "children": [
+      "drawer",
+      "logo#mobile",
+      "flex-layout.col#spacer",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "drawer": {
+    "children": ["menu#drawer"]
+  },
+
+  "menu#drawer": {
+    "children": [
+      "login",
+      "vtex.menu@2.x:menu#category-menu",
+      "vtex.menu@2.x:menu#links-header"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "/arquivos/logo-boticario.png",
+      "width": "125",
+      "height": "16"
+    }
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  }
+}

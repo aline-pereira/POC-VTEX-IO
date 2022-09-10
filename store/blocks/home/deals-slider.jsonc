@@ -1,0 +1,65 @@
+{
+  "slider-layout#deals-slider": {
+    "children": [
+      "image#deals1",
+      "image#deals2",
+      "image#deals3",
+      "image#deals4"
+    ],
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": false,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "blockClass": "deals-slider"
+    }
+  },
+  "image#deals1": {
+    "props": {
+      "src": "https://res.cloudinary.com/beleza-na-web/image/upload/f_auto,fl_progressive,q_50/v1/banner/2022_08_11_19_58_51_5/c24eb5dd-d478-4048-99f5-159ab023d5a1-468x710-2022-c12-cards-alavancas-primeiracompra.jpg",
+      "maxHeight": 447,
+      "link": {
+        "url": "https://www.boticario.com.br/presentes/"
+      },
+      "alt": "Lançamentos",
+      "title": "Deals - Image 1"
+    }
+  },
+  "image#deals2": {
+    "props": {
+      "src": "https://res.cloudinary.com/beleza-na-web/image/upload/f_auto,fl_progressive,q_50/v1/banner/2022_08_11_19_50_16_9/bf164a47-ec76-4da9-b8dc-1c76fc4a00a6-468x710-2022-c12-cards-alavancas-descontoprogressivo-50off.jpg",
+      "maxHeight": 447,
+      "link": {
+        "url": "https://www.boticario.com.br/lancamentos/"
+      },
+      "alt": "Presentes",
+      "title": "Deals - Image 2"
+    }
+  },
+  "image#deals3": {
+    "props": {
+      "src": "https://res.cloudinary.com/beleza-na-web/image/upload/f_auto,fl_progressive,q_50/v1/banner/2022_08_11_19_55_56_0/bccbb2b1-296c-4eb9-9bf6-c1bce32d97a6-468x710-2022-c12-cards-alavancas-cliqueretire.jpg",
+      "maxHeight": 447,
+      "link": {
+        "url": "https://www.boticario.com.br/cupom-de-desconto/primeira-compra/"
+      },
+      "alt": "Primiera Compra",
+      "title": "Deals - Image 3"
+    }
+  },
+  "image#deals4": {
+    "props": {
+      "src": "https://res.cloudinary.com/beleza-na-web/image/upload/f_auto,fl_progressive,q_50/v1/banner/2022_08_18_12_16_20_0/ed0edbb9-436e-468d-8698-bf05cbf56f03-card-468x710-22c12-superexpresso.jpg",
+      "maxHeight": 447,
+      "link": {
+        "url": "https://www.boticario.com.br/dicas-de-beleza/"
+      },
+      "alt": "Blog",
+      "title": "Deals - Image 4"
+    }
+  }
+}

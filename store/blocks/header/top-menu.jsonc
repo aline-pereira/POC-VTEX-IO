@@ -1,0 +1,63 @@
+{
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["logo#desktop"]
+  },  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/arquivos/logo-boticario.png",
+      "url": "/arquivos/logo-boticario.png",
+      "width": "210",
+      "height": "27"
+    }
+  },
+  "vtex.menu@2.x:menu#links-header": {
+    "props": {
+      "experimentalOptimizeRendering": true,
+      "blockClass": "header-links",
+      "items": [
+        {
+          "id": "menu-item-help",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/help",
+            "noFollow": true,
+            "tagTitle": "Ajuda",
+            "text": "Ajuda"
+          }
+        },
+        {
+          "id": "menu-item-sellers",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/sellers",
+            "noFollow": true,
+            "tagTitle": "Revenda",
+            "text": "Revenda"
+          }
+        },
+        {
+          "id": "menu-item-orders",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/orders",
+            "noFollow": true,
+            "tagTitle": "Pedidos",
+            "text": "Pedidos"
+          }
+        }
+      ]
+    }
+  }
+}
