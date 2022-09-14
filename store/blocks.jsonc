@@ -21,19 +21,24 @@
       "showPasswordVerificationIntoTooltip": true
     }
   },
-
-  "product-summary.shelf": {
-    "children": [
-      "product-summary-add-to-list-button",
-      "product-summary-name",
-      "product-rating-inline",
-      "product-summary-space",
-      "product-summary-price",
-      "product-identifier.summary",
-      "add-to-cart-button"
+  "store.not-found#product": {
+    "blocks": [
+      "rich-text#not-found"
     ]
   },
-
+  "store.not-found#search": {
+    "blocks": [
+      "rich-text#not-found"
+    ]
+  },
+  "rich-text#not-found": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "**PAGE NOT FOUND**",
+      "font": "t-heading-1"
+    }
+  },
   "product-summary.shelf#Home": {
     "children": [
       "product-summary-image#shelf-home",

@@ -204,5 +204,28 @@
       "blockClass": "text-main-seoDesk"
     },
     "title": "SEO Text-Desk-department"
-  }
+  },
+  "search-content": {
+    "blocks": [
+      "gallery",
+      "not-found"
+    ]
+  },
+  "gallery": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "props": {
+      "maxItemsPerRow": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      }
+    }
+  },
+    "search-fetch-more": {
+    "props": {
+      "htmlElementForButton": "a"
+    }
+    }
 }

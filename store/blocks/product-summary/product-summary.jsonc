@@ -1,10 +1,48 @@
 {
   "product-summary.shelf": {
+    "children": ["stack-layout#prodsum", "flex-layout.col#product-card"]
+  },
+  "stack-layout#prodsum": {
     "children": [
-      "stack-layout#prodsum",
+      "product-summary-image#shelf",
+      "vtex.product-highlights@2.x:product-highlights#collection",
+      "modal-trigger#quickview" // Check quickview.jsonc
+    ]
+  },
+  "product-summary-image#shelf": {
+    "props": {
+      "blockClass": "imageDepartment",
+      "showBadge": false,
+      "aspectRatio": "1:1",
+      "maxHeight": 300
+    }
+  },
+  "vtex.product-highlights@2.x:product-highlights#collection": {
+    "props": {
+      "blockClass": "departmentCollection",
+      "type": "collection"
+    },
+    "children": ["product-highlight-wrapper"]
+  },
+  "product-highlight-wrapper": {
+    "props": {
+      "blockClass": "departmentCollectionWrapper"
+    },
+    "children": ["product-highlight-text"]
+  },
+  "product-highlight-text": {
+    "props": {
+      "blockClass": "departmentCollectionText",
+      "message": "{highlightName}"
+    }
+  },
+  "flex-layout.col#product-card": {
+    "props": {
+      "blockClass": "productCard"
+    },
+    "children": [
       "product-summary-name",
       "flex-layout.col#productRating",
-      "product-summary-space",
       "product-list-price#summary",
       "flex-layout.row#selling-price-savings",
       "product-installments#summary",
@@ -17,41 +55,6 @@
     },
     "children": ["product-rating-inline"]
   },
-
-  "stack-layout#prodsum": {
-    "children": [
-      "product-summary-image#shelf",
-      "vtex.product-highlights@2.x:product-highlights#collection",
-      "modal-trigger#quickview" // Check quickview.jsonc
-    ]
-  },
-
-  "product-summary-image#shelf": {
-    "props": {
-      "showBadge": false,
-      "aspectRatio": "1:1",
-      "maxHeight": 300
-    }
-  },
-
-  "vtex.product-highlights@2.x:product-highlights#collection": {
-    "props": {
-      "type": "collection"
-    },
-    "children": ["product-highlight-wrapper"]
-  },
-  "product-highlight-wrapper": {
-    "props": {
-      "blockClass": "collection"
-    },
-    "children": ["product-highlight-text"]
-  },
-  "product-highlight-text": {
-    "props": {
-      "message": "{highlightName}"
-    }
-  },
-
   "product-list-price#summary": {
     "props": {
       "blockClass": "summary"
@@ -81,9 +84,7 @@
   },
   "product-price-savings#summary": {
     "props": {
-      "markers": [
-        "discount"
-      ],
+      "markers": ["discount"],
       "blockClass": "summary"
     }
   }

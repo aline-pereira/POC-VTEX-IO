@@ -1,0 +1,42 @@
+@media screen and (min-width: 64rem) {
+    .quantitySelectorContainer--quantity-pdp
+      :global(.vtex-numeric-stepper__input) {
+      width: 4rem;
+    }
+  }
+  
+.quantitySelectorContainer--quantity-pdp {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .quantitySelectorContainer--quantity-pdp
+    :global(.vtex-numeric-stepper__plus-button),
+  .quantitySelectorContainer--quantity-pdp
+    :global(.vtex-numeric-stepper__minus-button) {
+    padding: 0.563rem 1.66rem;
+    border: solid 0.13rem #f5f5f5;
+    background-color: #fff;
+    font: 600 16px "MuseoSans", sans-serif;
+    line-height: 1.88;
+    letter-spacing: 0.023rem;
+    text-align: center;
+    color: #00a470;
+    height: 3.5rem;
+    border-radius: 0;
+    cursor: pointer;
+  }
+  
+  .quantitySelectorContainer--quantity-pdp :global(.vtex-numeric-stepper__input) {
+    padding: 0.7rem;
+    width: 9.8rem;
+    height: 3.5rem;
+    line-height: 1.88;
+    letter-spacing: 0.023rem;
+    text-align: center;
+    color: #00a470;
+    border: solid 0.13rem #f5f5f5;
+    border-left-color: #fff;
+    border-right-color: #fff;
+  }

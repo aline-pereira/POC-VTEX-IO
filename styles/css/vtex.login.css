@@ -25,3 +25,7 @@
 :global(.pl9-l) {
     padding-left: unset !important;
 }
+
+:global(.b--action-primary) {
+    border-color: #f5f5f5 !important;
+}

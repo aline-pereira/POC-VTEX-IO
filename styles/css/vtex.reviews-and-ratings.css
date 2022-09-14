@@ -1,0 +1,13 @@
+.star--filled {
+    color: #fc0 !important;
+}
+
+.reviewsOrderBy {
+    display: none !important;
+}
+
+.writeReviewContainer {
+    background-color: green;
+    padding: 1rem;
+    border-radius: 8px;
+}

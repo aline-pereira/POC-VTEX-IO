@@ -143,7 +143,6 @@
     },
     "children": ["rich-text#menu-institucional"]
   },
-
   "vtex.menu@2.x:menu#footer": {
     "props": {
       "orientation": "vertical"
@@ -154,7 +153,6 @@
       "vtex.menu@2.x:menu#institucional"
     ]
   },
-
   "rich-text#menu-duvidas": {
     "props": {
       "text": "Dúvidas",
