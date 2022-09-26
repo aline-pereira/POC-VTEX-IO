@@ -15,7 +15,8 @@
       "flex-layout.row#stack-mobile",
       "flex-layout.row#description",
       "shelf.relatedProducts",
-      "product-questions-and-answers"
+      "product-questions-and-answers",
+      "shelf-custom"
     ],
     "title": "Product Components - Container"
   },
@@ -33,7 +34,8 @@
       "product-gifts",
       "flex-layout.row#buy-button",
       "availability-subscriber",
-      "shipping-simulator"
+      "shipping-simulator",
+      "shelf-custom"
     ]
   },
   "responsive-layout.tablet": {
@@ -44,7 +46,8 @@
       "product-specification-group#table",
       "shelf.relatedProducts",
       "product-reviews",
-      "product-questions-and-answers"
+      "product-questions-and-answers",
+      "shelf-custom"
     ]
   },
   "responsive-layout.desktop": {
@@ -52,7 +55,7 @@
       "flex-layout.row#product-breadcrumb",
       "condition-layout.product#availability",
       "shelf.relatedProducts",
-      "product-questions-and-answers"
+      "shelf-custom"
     ]
   },
   "flex-layout.row#product-breadcrumb": {
@@ -90,7 +93,11 @@
     "children": ["flex-layout.col#stack", "flex-layout.col#right-col"]
   },
   "flex-layout.col#stack": {
-    "children": ["stack-layout","product-specification-group#table","product-reviews"],
+    "children": [
+      "stack-layout",
+      "product-specification-group#table",
+      "product-reviews"
+    ],
     "props": {
       "width": "60%",
       "rowGap": 0
@@ -163,10 +170,7 @@
       "marginBottom": 7,
       "blockClass": "button-pdp"
     },
-    "children": [
-      "product-quantity",
-      "add-to-cart-button#button-pdp"
-    ]
+    "children": ["product-quantity", "add-to-cart-button#button-pdp"]
   },
   "product-quantity": {
     "props": {
@@ -181,11 +185,9 @@
   },
   "flex-layout.col#simulator-product": {
     "title": "Calcule o valor do frete",
-    "children": [
-     "shipping-simulator"
-    ],
-    "props":{
-      "blockClass": "simulator-product" 
+    "children": ["shipping-simulator"],
+    "props": {
+      "blockClass": "simulator-product"
     }
   },
   "flex-layout.row#product-availability": {

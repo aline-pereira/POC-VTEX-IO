@@ -10,8 +10,9 @@
     "blocks": ["product-summary.shelf#Home"],
     "children": ["slider-layout#demo-products"],
     "props": {
-      "orderBy": "OrderByTopSaleDESC"
-    }
+      "orderBy": "OrderByTopSaleDESC",
+      "collection": "154"
+        }
   },
   "slider-layout#demo-products": {
     "props": {

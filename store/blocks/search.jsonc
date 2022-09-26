@@ -3,7 +3,7 @@
     "blocks": ["search-result-layout"],
     "props": {
       "context": {
-        "skusFilter": "ALL",
+        "skusFilter": "FIRST_AVAILABLE",
         "simulationBehavior": "skip"
       }
     }
@@ -63,8 +63,7 @@
     "children": [
       "breadcrumb.search",
       "search-title.v2",
-      "flex-layout.row#banner-department",
-      "flex-layout.row#text-department",
+      "search-banner#one",
       "flex-layout.row#filter",
       "search-content",
       "search-fetch-more"
@@ -132,7 +131,7 @@
   "flex-layout.col#content": {
     "children": [
       "flex-layout.row#searchtitle",
-      "flex-layout.row#banner-department",
+      "search-banner#one",
       "flex-layout.row#text-department",
       "order-by.v2",
       "search-content",
@@ -149,45 +148,12 @@
     },
     "title": "title - department"
   },
-  "flex-layout.row#banner-department": {
-    "children": ["list-context.image-list#banner-department"],
+  "search-banner#one": {
     "props": {
-      "blockClass": "banner-department"
-    },
-    "title": "Department - Banner Principal"
-  },
-  "list-context.image-list#banner-department": {
-    "children": ["slider-layout#banner-department"],
-    "props": {
-      "height": 400,
-      "images": [
-        {
-          "src": "https://res.cloudinary.com/beleza-na-web/image/upload/f_auto,fl_progressive,q_auto:eco/v1/banner/2022_08_11_18_35_48_8/f1b8cfea-9a5c-406a-92cd-7e1bfaae3dc4-vitrine-2240x750-22c12-botikmandelico-desk.jpg",
-          "link": "/"
-        },
-        {
-          "src": "https://res.cloudinary.com/beleza-na-web/image/upload/f_auto,fl_progressive,q_auto:low,w_940/v1/banner/2022_08_11_18_16_29_1/159be105-8744-4368-a9fb-4c2619dcfe2b-billboard-2440x750-22c10-batomjulio-desk.jpg",
-          "link": "/"
-        }
-      ]
-    },
-    "title": "Department - Banner Principal"
-  },
-  "slider-layout#banner-department": {
-    "props": {
-      "itemsPerPage": {
-        "phone": 1
-      },
-      "autoplay": {
-        "timeout": 3000,
-        "stopOnHover": false
-      },
-      "infinite": true,
-      "showPaginationDots": "never",
-      "showNavigationArrows": "never",
-      "blockClass": "main-banner"
-    },
-    "title": "Department - Slider Banner principal"
+      "area": "one",
+      "blockClass": "myBanner",
+      "horizontalAlignment": "center"
+    }
   },
   "flex-layout.row#text-department": {
     "children": ["rich-text#textDepartment"],
