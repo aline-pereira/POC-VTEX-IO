@@ -35,3 +35,9 @@
   font-size: 1.125rem;
   color: #00a470;
 }
+
+.galleryItem--normal {
+  border: 1px solid #ebebeb;
+  margin: 1rem 0.5rem;
+  max-width: 31% !important;
+}

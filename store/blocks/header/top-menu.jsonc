@@ -7,7 +7,7 @@
   },  "logo#desktop": {
     "props": {
       "title": "Logo",
-      "href": "/arquivos/logo-boticario.png",
+      "href": "/",
       "url": "/arquivos/logo-boticario.png",
       "width": "210",
       "height": "27"

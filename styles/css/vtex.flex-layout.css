@@ -3,8 +3,9 @@
     margin: 50px auto;
   }
 
-  .flexRow--menu-row {
-    background: #00a470;
+  .flexRow--menu-row,
+  .flexRow--menu-footer-content {
+    background: #00a470 !important;
     padding: 30px 0;
   }
 
@@ -38,7 +39,8 @@
   margin: 30px 0 !important;
 }
 
-.flexRow--main-header {
+.flexRow--main-header,
+.flexRowContent--main-header {
   background: #f5f5f5;
   padding: 15px 0;
 }
